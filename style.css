@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+.bg-img{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    top: 0px ;
+    left: 0px;
+    filter: hue-rotate(160deg);
+    opacity: 10%;
+    object-position: top;
+    z-index: -1;
+}
+
+
+
+
+.nav{
+    background-color: white;
+    padding-top: 10px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-right: 0px solid black;
+    box-shadow: 1px 5px 5px black;
+    padding: 20px 20px;
+}
+
+.nav-link{
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+
+
+.earth{
+    color: #a5b1fe;
+    text-decoration: none;
+}
+
+
+.nav-link:hover .icons{
+    transform: rotate(15deg) translateX(20px); 
+    
+}
+
+.reg{
+    text-align: center;
+}
+    
+.container{
+    width: 90%;
+    margin-left: 130px;
+    
+}
+
+.reg-tittle{
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.input-text{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+
+.send{
+    padding: 10px 20px;
+    border-radius: 24px;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.217);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.fire-planet{
+    width: 20px;
+}
+
+.s1-text{
+    background-image: url(images/intro2.jpg);
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    border-radius: 0px 24px 24px 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.our-planet{
+    background-color: white;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: #a5b1fe;
+    border-radius: 0px 0px 24px 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.492);
+    margin-bottom: 50px;
+}
+
+
+.section-1{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    
+}
+
+
+
+
+.fact{
+    background-color: aquamarine;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.emoji{
+    width: 20px;
+    height: 20pxs;
+}
+
+.tittle{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+
+
+.s2-text{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.702);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.s2-desc{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.702);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.img{
+    background-size: cover;
+    width: 18%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-bg0{
+    background-image: url(images/plant0.jpg);
+}
+
+.img-bg1{
+    background-image: url(images/plant1.jpg);
+}
+
+.img-bg2{
+    background-image: url(images/plant2.jpg);
+}
+
+.img-bg3{
+    background-image: url(images/plant3.jpg);
+}
+
+.img-bg4{
+    background-image: url(images/plant4.jpg);
+}
+
+
+.s3-tittle{
+    text-align: center;
+}
+
+
+.picture{
+    font-size: 40px;
+    color: white;
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.p1{
+    background-image: url(images/internet.jpg);
+
+}
+
+.p2{
+    background-image: url(images/events.jpg);
+}
+
+.p3{
+    background-image: url(images/friends.jpg);
+}
+
+.section-3-pictures{
+    display: flex;
+}
+
+.section-3{
+    margin-bottom: 50px;
+}
+
+.s4-div{
+    background-image: url(images/land0.jpg);
+    width: 50%;
+    opacity: 90%;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 12px 12px 0px;
+    display: flex;
+
+    align-items: center;
+    
+}
+
+.lorem{
+    width: 40%;
+}
+.s4-img{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s4-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s4-emoji{
+    width: 50px;
+    z-index: 2;
+}
